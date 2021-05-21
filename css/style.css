@@ -394,6 +394,10 @@ a {
   justify-content: center;
 }
 
+#pricing .pricing-box i {
+  margin-top: 3rem;
+}
+
 /*  Testimonials */
 .testimonial-box {
   display: flex;
