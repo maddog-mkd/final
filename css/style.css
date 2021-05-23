@@ -381,7 +381,8 @@ a {
 
 .change-box i {
   margin-right: 1rem;
-  color: var(--color-6);
+  color: var(--color-8);
+  opacity: 0.3;
 }
 
 /* Project Section */
