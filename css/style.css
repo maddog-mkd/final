@@ -70,7 +70,7 @@ a {
 }
 
 .special-2 {
-  color: var(--color-7);
+  color: var(--color-3);
 }
 
 .size-h {
@@ -381,7 +381,7 @@ a {
 
 .change-box i {
   margin-right: 1rem;
-  color: var(--color-3);
+  color: var(--color-6);
 }
 
 /* Project Section */
