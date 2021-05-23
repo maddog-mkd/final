@@ -2,7 +2,8 @@
   --white: #ffffff;
   --black: #000000;
   --grey: #313131;
-  --red: red;
+  /* --red: red; */
+  --red: rgb(241, 52, 52);
 
   --color-1: #212121;
   --color-2: #fcfcfc;
@@ -27,6 +28,18 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.container-2 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 5rem 0 0;
 }
 
 h1,
@@ -64,6 +77,13 @@ a {
 
 .lead-h {
   font-size: 2.3rem;
+}
+
+.btn-small {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .btn-light {
@@ -290,29 +310,6 @@ a {
   }
 }
 
-/* ------------------ */
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 5rem 1rem;
-}
-
-.container-2 {
-  max-width: 1100px;
-  margin: auto;
-  padding: 5rem 0 0;
-}
-
-/* Who Are We Section */
-
-.who-box .box-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-
 /* What We Do Section */
 #what {
   background-color: var(--color-1);
@@ -329,7 +326,7 @@ a {
 
 .what-box .box-wrap .box {
   margin-top: 1rem;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 
 .what-box .box-wrap .box i {
@@ -337,17 +334,14 @@ a {
 }
 
 /* Why Choose Us Section */
-.why-box .why-box-wrap {
+.why-box .why-box-wrap .us-box {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-.why-box .why-box-wrap .us-box {
-  margin-top: 1rem;
-  padding: 2rem;
 }
 
 .why-box .why-box-wrap .us-box i {
@@ -364,7 +358,7 @@ a {
 .change-box {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .change-box i {
@@ -374,10 +368,10 @@ a {
 
 /* Our Work Section */
 .our-work-box {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .our-work-box i {
@@ -392,10 +386,10 @@ a {
 }
 
 #project .project-box {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 #project .project-box i {
@@ -409,10 +403,10 @@ a {
 }
 
 #pricing .pricing-box {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 #pricing .pricing-box i {
@@ -421,10 +415,10 @@ a {
 
 /*  Testimonials */
 .testimonial-box {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .testimonial-container {

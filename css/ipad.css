@@ -1,2 +1,87 @@
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
+  /* SHOWCASE */
+  .showcase {
+    padding-bottom: 150px;
+  }
+
+  .showcase .showcase-content {
+    padding: 0 1rem;
+  }
+
+  .showcase .showcase-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .showcase .showcase-content h2 {
+    font-size: 4.4rem;
+  }
+
+  .showcase .showcase-content h3 {
+    letter-spacing: 10px;
+  }
+
+  .size-h {
+    font-size: 7.2rem;
+    line-height: 0.8;
+    letter-spacing: 10px;
+  }
+
+  /* What We Do Section */
+  .what-box .box-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .what-box .box-wrap .box {
+    width: 360px;
+  }
+
+  /* Why Choose Us Section */
+  .why-box .why-box-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-box .why-box-wrap .us-box {
+    flex: 1;
+    margin: 2rem 0.2rem;
+  }
+
+  /* Change */
+  .change {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .change-box {
+    width: 360px;
+  }
+
+  /* Contact */
+  .map-contact-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .map-contact-wrap .contact-form {
+    padding: 0 1rem;
+  }
+
+  .map-contact-wrap .map {
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
 }
