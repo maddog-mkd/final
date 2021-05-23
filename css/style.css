@@ -58,7 +58,7 @@ img {
 p {
   line-height: 1.6;
   margin: 1rem 0;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 
 a {
@@ -80,10 +80,17 @@ a {
 }
 
 .btn-small {
+  display: inline-block;
   color: var(--black);
   background-color: var(--white);
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-small:hover {
+  opacity: 0.8;
+  letter-spacing: 2px;
 }
 
 .btn-light {
@@ -317,20 +324,26 @@ a {
 }
 
 .what-box .box-wrap {
+  margin-top: 3rem;
+}
+
+.what-box .box-wrap div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.what-box .box-wrap div .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
-.what-box .box-wrap .box {
-  margin-top: 1rem;
-  padding: 1rem 2rem;
+.what-box .box-wrap div .box:last-child {
+  display: inline-block;
 }
 
-.what-box .box-wrap .box i {
-  margin-bottom: 1rem;
+.what-box .box-wrap div i {
+  margin-right: 1rem;
 }
 
 /* Why Choose Us Section */
@@ -402,25 +415,11 @@ a {
   color: var(--white);
 }
 
-#pricing .pricing-box {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-
 #pricing .pricing-box i {
   margin-top: 3rem;
 }
 
 /*  Testimonials */
-.testimonial-box {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-
 .testimonial-container {
   background-color: whitesmoke;
   color: var(--black);
