@@ -344,6 +344,7 @@ a {
 
 .what-box .box-wrap div i {
   margin-right: 1rem;
+  color: rgb(43, 43, 43);
 }
 
 /* Why Choose Us Section */
@@ -359,7 +360,7 @@ a {
 
 .why-box .why-box-wrap .us-box i {
   margin-bottom: 1rem;
-  color: var(--red);
+  color: rgb(208, 208, 208);
 }
 
 /* Change */
@@ -380,13 +381,6 @@ a {
 }
 
 /* Our Work Section */
-.our-work-box {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-
 .our-work-box i {
   margin-top: 1rem;
   color: var(--grey);
@@ -398,25 +392,10 @@ a {
   color: var(--white);
 }
 
-#project .project-box {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-
-#project .project-box i {
-  margin-top: 3rem;
-}
-
 /* Pricing */
 #pricing {
   background-color: var(--color-1);
   color: var(--white);
-}
-
-#pricing .pricing-box i {
-  margin-top: 3rem;
 }
 
 /*  Testimonials */
