@@ -350,7 +350,7 @@ a {
 
 .what-box .box-wrap div .bu {
   margin-right: 1rem;
-  color: rgb(43, 43, 43);
+  color: rgba(43, 43, 43, 0.3);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -394,12 +394,14 @@ a {
 #project {
   background-color: var(--red);
   color: var(--white);
+  position: relative;
 }
 
 /* Pricing */
 #pricing {
   background-color: var(--color-1);
   color: var(--white);
+  position: relative;
 }
 
 /*  Testimonials */
