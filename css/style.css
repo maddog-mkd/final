@@ -69,6 +69,10 @@ a {
   color: var(--red);
 }
 
+.special-2 {
+  color: var(--color-7);
+}
+
 .size-h {
   font-size: 4.5rem;
   line-height: 0.8;
@@ -378,12 +382,6 @@ a {
 .change-box i {
   margin-right: 1rem;
   color: var(--color-3);
-}
-
-/* Our Work Section */
-.our-work-box i {
-  margin-top: 1rem;
-  color: var(--grey);
 }
 
 /* Project Section */
