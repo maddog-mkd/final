@@ -350,7 +350,7 @@ a {
 
 .what-box .box-wrap div .bu {
   margin-right: 1rem;
-  color: rgba(43, 43, 43, 0.3);
+  color: rgba(43, 43, 43, 0.5);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -387,7 +387,7 @@ a {
 .change-box i {
   margin-right: 1rem;
   color: var(--color-8);
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 /* Project Section */
