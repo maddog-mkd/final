@@ -136,7 +136,7 @@ a {
 
 /* ----- HAMBURGER MENU ----- */
 .navbar {
-  width: 300px;
+  width: 250px;
   height: 80vh;
   background-color: var(--black);
   position: fixed;
@@ -194,7 +194,8 @@ a {
 
 .nav-item {
   list-style: none;
-  margin: 25px;
+  margin: 1.6rem;
+  margin-left: 3rem;
 }
 
 .nav-link {
@@ -626,16 +627,96 @@ a {
 /* =============================================================================================================================================== */
 
 /* -------------------- About Page */
+.showcase-page {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.showcase-page video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.showcase-page .overlay-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.showcase-page .showcase-content-page {
+  position: relative;
+  color: var(--white);
+  padding: 0 1rem;
+}
+
+.showcase-page .showcase-content-page h1 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  animation-name: moveToLeft;
+  animation-duration: 2s;
+}
+
+.showcase-page .showcase-content-page h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 1;
+  animation-name: moveToRight;
+  animation-duration: 2s;
+}
+
+.showcase-page .showcase-content-page h3 {
+  letter-spacing: 1.1px;
+  animation-name: moveToLeft;
+  animation-duration: 2s;
+}
+
+/* -------------------- About Page */
 #about-page {
-  padding: 5rem 0;
   background-color: var(--color-1);
+  color: var(--white);
 }
 
-.about-page h2 {
-  color: var(--red);
-  margin-bottom: 1rem;
+/* -------------------- Work Page */
+#work-page {
+  background-color: var(--color-1);
+  color: var(--white);
 }
 
-.about-page p {
+/* -------------------- Pricing Page */
+#pricing-page {
+  background-color: var(--color-1);
+  color: var(--white);
+}
+
+/* -------------------- Gallery Page */
+#gallery-page {
+  background-color: var(--color-1);
+  color: var(--white);
+}
+
+/* -------------------- Contact Page */
+#contact-page {
+  background-color: var(--color-1);
+  color: var(--white);
+}
+
+/* -------------------- Blog Page */
+#blog-page {
+  background-color: var(--color-1);
   color: var(--white);
 }

@@ -9,16 +9,15 @@
     <meta name="keywords" content="...">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/1890b6a42e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/icon/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/mobile.css">
-    <link rel="stylesheet" href="/css/ipad.css">
-    <link rel="stylesheet" href="/css/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="/css/ipad.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="/css/desktop.css">
 
     <!-- Title -->
-    <title>Recognized Design | Web Design | Web Development | SEO</title>
+    <title>About Us | Recognized Design | Web Design | Web Development | SEO</title>
 </head>
 <body>
     <!-- Navigation / Menu -->
@@ -36,7 +35,7 @@
                 <a href="/about.html" class="nav-link">about</a>
             </li>
             <li class="nav-item">
-                <a href="/ourwork.html" class="nav-link">our work</a>
+                <a href="/work.html" class="nav-link">work</a>
             </li>
             <li class="nav-item">
                 <a href="/pricing.html" class="nav-link">pricing</a>
@@ -54,34 +53,44 @@
     </nav>
 
     <!-- Showcase -->
-    <header class="showcase">
+    <header class="showcase-page">
         <video src="/vid/recognized-design-intro.mp4" muted loop autoplay></video>
-        <div class="overlay"></div>
-        <div class="showcase-content">
+        <div class="overlay-page"></div>
+        <div class="showcase-content-page">
             <h1>web design | web development | seo</h1>
-            <h2>recognized 
+            <h2>recognized
                 <br><span class="special-1 size-h">design</span></h2>
             <h3>let us build your vision!</h3>
-            <h2>about us</h2>
-            <a href="#" id="open" class="btn-light-hero">contact</a>
+            <a href="#" id="open" class="btn-light-hero">contact us</a>
         </div>
     </header>
 
     <main id="about-page">
-        <div class="container about-page">
-            <div class="about-box about-box-1">
-                <h2 class="lead-h">about us</h2>
-                <img src="" alt="">
-            </div>
-            <div class="about-box about-box-1">
-                <p>We are a group of freelancers specialized in Web-Design UI/UX, Web-Development and Search Engine Optimization, primarily Google, Yahoo and Bing.</p>
-                <p>In order to be successful, you need to love what you do!</p>
-                <p>We consider ourselves as a group of enthusiasts who love and do their work the best they can. Our goal is to make our customers satisfied with our services.</p>
-                <p>Our task doesn't end here! Expect for ours, we take care of your potential clients who enable this work to be successful, both individually and collectively! Your success is also our success!</p>
+        <div class="container">
+            <h2 class="lead-h">about us</h2>
+            <div class="about-page-wrap">
+                <div class="about-page-content">
+                    <p>We are a group of freelancers specialized in Web-Design UI/UX, Web-Development and Search Engine Optimization, primarily Google, Yahoo and Bing.</p>
+                    <p>In order to be successful, you need to love what you do!</p>
+                    <p>We consider ourselves as a group of enthusiasts who love and do their work the best they can. Our goal is to make our customers satisfied with our services</p>
+                    <p>Our task doesn't end here! Expect for ours, we take care of your potential clients who enable this work to be successful, both individually and collectively!</p>   
+                    <p>Your success is also our success!</p>
+                </div>
+                <img src="/img/pexels-olia-danilevich-4974914.jpg" alt="">
             </div>
         </div>
     </main>
 
+    <!-- Lets Jump To Your Project -->
+    <div id="project">
+        <section class="container project-box">
+            <h2 class="lead-h">lets jump to your project!</h2>
+            <p>Are you interested in working with us? Tell us your specific needs and ideas. We will find the smartest and fastest solutions for your business.</p>
+            <button id="open-one" class="btn-dark">
+                contact
+            </button>
+        </section>
+    </div>  
 
     <!-- Footer -->
     <footer class="footer">
@@ -117,7 +126,6 @@
             </div>
         </div>
     </div>
-    
 
     <!-- JavaScript -->
     <script src="/js/main.js"></script>
