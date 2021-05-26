@@ -30,6 +30,27 @@
     letter-spacing: 10px;
   }
 
+  /* =================== Showcase Page */
+  .showcase-page .showcase-content-page h1 {
+    font-size: 0.83rem;
+    letter-spacing: 6px;
+  }
+
+  .showcase-page .showcase-content-page h2 {
+    font-size: 2.3rem;
+    letter-spacing: 6px;
+  }
+
+  .showcase-page .showcase-content-page h3 {
+    letter-spacing: 10px;
+  }
+
+  .size-h {
+    font-size: 2.3rem;
+    line-height: 0.8;
+    letter-spacing: 5px;
+  }
+
   /* ===================== What We Do Section */
   .what-box .box-wrap {
     display: flex;
