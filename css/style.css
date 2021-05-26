@@ -1,22 +1,14 @@
+/* =============================================================================
+================== UTILITIES ===================================================
+================================================================================*/
+
 :root {
   --white: #ffffff;
   --black: #000000;
-  --grey: #313131;
-  /* --red: red; */
   --red: rgb(241, 52, 52);
-
   --color-1: #212121;
-  --color-2: #fcfcfc;
-  --color-3: #10abf7;
-
   --color-4: #0083b7;
-  --color-5: #04ade7;
-  --color-6: #0092c1;
-
-  --color-7: #0aaed7;
   --color-8: #00afe7;
-  --color-9: #ffffff;
-
   --modal-duration: 1s;
 }
 
@@ -26,8 +18,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/font/Poppins-Regular.ttf);
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins-Regular", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -53,6 +50,7 @@ h6 {
 }
 
 img {
+  display: inline-block;
   width: 100%;
 }
 
@@ -132,7 +130,11 @@ a {
   letter-spacing: 6px;
 }
 
-/* ========== HAMBURGER MENU ========== */
+/* =============================================================================
+================== MOBILE STYLES ===============================================
+================================================================================*/
+
+/* ----- HAMBURGER MENU ----- */
 .navbar {
   width: 300px;
   height: 80vh;
@@ -401,7 +403,6 @@ a {
 #pricing {
   background-color: var(--color-1);
   color: var(--white);
-  position: relative;
 }
 
 /*  Testimonials */
@@ -530,23 +531,6 @@ a {
   font-size: small;
 }
 
-/* =============================================================================================================================================== */
-
-/* ========== About Page */
-#about-page {
-  padding: 5rem 0;
-  background-color: var(--color-1);
-}
-
-.about-page h2 {
-  color: var(--red);
-  margin-bottom: 1rem;
-}
-
-.about-page p {
-  color: var(--white);
-}
-
 /* ========== MODAL ========== */
 .modal-container {
   background-color: rgba(0, 0, 0, 0.6);
@@ -637,4 +621,21 @@ a {
   cursor: pointer;
   outline: none;
   border: none;
+}
+
+/* =============================================================================================================================================== */
+
+/* -------------------- About Page */
+#about-page {
+  padding: 5rem 0;
+  background-color: var(--color-1);
+}
+
+.about-page h2 {
+  color: var(--red);
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  color: var(--white);
 }

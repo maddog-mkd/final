@@ -1,2 +1,31 @@
-@media screen and (min-width: 1024) {
+/* =============================================================================
+================== DESCTOP STYLES ==============================================
+================================================================================*/
+
+@media screen and (min-width: 1024px) {
+  .showcase {
+    padding-bottom: 150px;
+  }
+
+  .showcase .showcase-content {
+    padding: 0 8rem;
+  }
+
+  .showcase .showcase-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .showcase .showcase-content h2 {
+    font-size: 4.4rem;
+  }
+
+  .showcase .showcase-content h3 {
+    letter-spacing: 10px;
+  }
+
+  .size-h {
+    font-size: 7.2rem;
+    line-height: 0.8;
+    letter-spacing: 10px;
+  }
 }
