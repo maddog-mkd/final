@@ -576,7 +576,7 @@ a {
 /* ==================================== Showcase Page */
 .showcase-page {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -627,7 +627,7 @@ a {
 }
 
 .showcase-page .showcase-content-page h3 {
-  letter-spacing: 1.1px;
+  letter-spacing: 3px;
   animation-name: moveToLeft;
   animation-duration: 2s;
 }

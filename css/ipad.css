@@ -3,7 +3,7 @@
 ================================================================================*/
 
 @media screen and (min-width: 768px) {
-  /* SHOWCASE */
+  /* ======================== Showcase Section */
   .showcase {
     padding-bottom: 150px;
   }
@@ -30,7 +30,7 @@
     letter-spacing: 10px;
   }
 
-  /* What We Do Section */
+  /* ===================== What We Do Section */
   .what-box .box-wrap {
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@
     margin: 1rem;
   }
 
-  /* Why Choose Us Section */
+  /* =============== Why Choose Us Section */
   .why-box .why-box-wrap {
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@
     margin: 2rem 0.2rem;
   }
 
-  /* Change */
+  /* ============================ Change */
   .change {
     display: flex;
     flex-direction: row;
@@ -67,11 +67,45 @@
     width: 300px;
   }
 
+  /* =================================================================================================================== */
+
+  /* ========================================== About Page */
+  #about-page .about-page-wrap {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  #about-page .about-page-wrap .about-page-content {
+    margin-right: 1rem;
+  }
+
+  #about-page .about-page-wrap img {
+    max-width: 400px;
+    max-height: auto;
+    object-fit: cover;
+  }
+
+  /* =========================================== Blog Page */
+  #blog-page .blog-page-wrapper {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #blog-page .blog-page-wrapper .blog-page-blog {
+    max-width: 300px;
+    margin: 1rem;
+  }
+
   /* ==================== Contact Page And Section */
   #contact-page .contact-page-cont {
     flex-direction: row-reverse;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   #contact-page .contact-page-cont .contact-form-cont {
