@@ -793,6 +793,7 @@ a {
 
 #contact-page .contact-page-cont .contact-info-cont li {
   padding: 0.5rem 0;
+  color: var(--red);
 }
 
 #contact-page .contact-page-cont .contact-info-cont li i {
