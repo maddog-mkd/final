@@ -620,11 +620,6 @@ a {
   font-weight: 300;
   animation-name: moveToLeft;
   animation-duration: 2s;
-  background-color: black;
-  color: white;
-  padding: 0 0.5rem;
-  border-radius: 0.5rem;
-  opacity: 0.5;
 }
 
 .showcase-page .showcase-content-page h2 {
@@ -640,11 +635,6 @@ a {
   letter-spacing: 2.6px;
   animation-name: moveToLeft;
   animation-duration: 2s;
-  background-color: white;
-  color: black;
-  padding: 0 0.5rem;
-  border-radius: 0.5rem;
-  opacity: 0.5;
 }
 
 .break {

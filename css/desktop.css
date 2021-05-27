@@ -30,6 +30,13 @@
   }
 
   /* =================== Showcase Page */
+  .showcase-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2rem 2rem;
+    justify-content: flex-end;
+  }
+
   .showcase-page .showcase-content-page h1 {
     font-size: 1rem;
     letter-spacing: 9px;
