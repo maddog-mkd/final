@@ -828,3 +828,19 @@ a {
 #blog-page .blog-page-wrapper .blog-page-blog a {
   margin: 0 0 1rem 1rem;
 }
+
+/* =========================================== Post Page */
+#post {
+  background-color: var(--color-1);
+  color: var(--white);
+}
+
+#post .img-post {
+  margin: 1rem auto;
+  display: block;
+}
+
+#post .lista {
+  list-style: square;
+  margin-left: 1rem;
+}
