@@ -842,6 +842,8 @@ a {
 #post .img-post {
   margin: 1rem auto;
   display: block;
+  width: 500px;
+  height: auto;
 }
 
 #post .lista {
