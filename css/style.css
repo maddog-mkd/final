@@ -653,6 +653,33 @@ a {
   color: var(--white);
 }
 
+#work-page .work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work-page .work-container .work-project {
+  position: relative;
+  width: 350px;
+  height: auto;
+  margin: 1rem;
+}
+
+#work-page .work-container .work-project:hover {
+  opacity: 0.8;
+}
+
+#work-page .work-container .work-project img {
+  border-radius: 1rem;
+}
+
+#work-page .work-container .work-project a {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+}
+
 /* ==================================== Pricing Page */
 #pricing-page {
   background-color: var(--color-1);
@@ -714,6 +741,7 @@ a {
   padding: 0.2rem 0.3rem;
   border-radius: 0.2rem;
   margin-right: 0.5rem;
+  font-weight: bold;
 }
 
 #pricing-page .zglb .plan-description {

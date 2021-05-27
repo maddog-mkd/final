@@ -108,9 +108,17 @@
     object-fit: cover;
   }
 
+  /* ========================================== Work Page */
+  #work-page .work-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
   /* =========================================== Pricing Page */
   .pricing-card-wrap {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
   }
 
@@ -120,7 +128,7 @@
   }
 
   .zglb {
-    flex: 1;
+    flex: 2;
   }
 
   /* =========================================== Blog Page */
@@ -137,7 +145,7 @@
     margin: 1rem;
   }
 
-  /* ==================== Contact Page And Section */
+  /* ============================= Contact Page And Section */
   #contact-page .contact-page-cont {
     flex-direction: row-reverse;
     justify-content: center;
