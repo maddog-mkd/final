@@ -108,6 +108,21 @@
     object-fit: cover;
   }
 
+  /* =========================================== Pricing Page */
+  .pricing-card-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pricing-card {
+    margin-right: 2rem;
+    flex: 1;
+  }
+
+  .zglb {
+    flex: 1;
+  }
+
   /* =========================================== Blog Page */
   #blog-page .blog-page-wrapper {
     display: flex;
