@@ -652,6 +652,10 @@ a {
   color: var(--white);
 }
 
+#about-page .img-about {
+  border-radius: 1rem;
+}
+
 /* ====================================== Work Page */
 #work-page {
   background-color: var(--color-1);
