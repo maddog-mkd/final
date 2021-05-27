@@ -32,23 +32,25 @@
 
   /* =================== Showcase Page */
   .showcase-page .showcase-content-page h1 {
-    font-size: 0.83rem;
-    letter-spacing: 6px;
+    font-size: 0.9rem;
+    letter-spacing: 7px;
   }
 
   .showcase-page .showcase-content-page h2 {
-    font-size: 2.3rem;
-    letter-spacing: 6px;
+    font-size: 2.5rem;
+    letter-spacing: 7px;
   }
 
   .showcase-page .showcase-content-page h3 {
-    letter-spacing: 10px;
+    letter-spacing: 12px;
   }
 
-  .size-h {
-    font-size: 2.3rem;
-    line-height: 0.8;
-    letter-spacing: 5px;
+  .h-large-p {
+    font-size: 2.5rem;
+  }
+
+  .break {
+    display: inline-block;
   }
 
   /* ===================== What We Do Section */

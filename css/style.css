@@ -106,6 +106,7 @@ a {
 
 .btn-light:hover {
   letter-spacing: 6px;
+  opacity: 0.8;
 }
 
 .btn-dark {
@@ -123,6 +124,7 @@ a {
 
 .btn-dark:hover {
   letter-spacing: 6px;
+  opacity: 0.8;
 }
 
 /* =============================================================================
@@ -236,7 +238,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .showcase .showcase-content {
@@ -254,7 +256,7 @@ a {
 
 .showcase .showcase-content h2 {
   font-size: 2rem;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   font-weight: bold;
   line-height: 1;
   animation-name: moveToRight;
@@ -293,6 +295,7 @@ a {
 
 .btn-light-hero:hover {
   letter-spacing: 6px;
+  opacity: 0.8;
 }
 
 @keyframes moveToLeft {
@@ -617,6 +620,11 @@ a {
   font-weight: 300;
   animation-name: moveToLeft;
   animation-duration: 2s;
+  background-color: black;
+  color: white;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  opacity: 0.5;
 }
 
 .showcase-page .showcase-content-page h2 {
@@ -632,6 +640,11 @@ a {
   letter-spacing: 2.6px;
   animation-name: moveToLeft;
   animation-duration: 2s;
+  background-color: white;
+  color: black;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  opacity: 0.5;
 }
 
 .break {
@@ -640,6 +653,7 @@ a {
 
 .h-large-p {
   font-size: 4.6rem;
+  font-weight: bold;
 }
 
 /* ===================================== About Page */
@@ -705,7 +719,7 @@ a {
   padding: 0.5rem;
   border-radius: 1rem;
   position: relative;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
   border: 2px solid green;
 }
 
