@@ -88,6 +88,7 @@ a {
 .btn-small:hover {
   opacity: 0.8;
   letter-spacing: 2px;
+  display: inline-block;
 }
 
 .btn-light {
@@ -130,7 +131,7 @@ a {
 
 /* ==================================== HAMBURGER MENU */
 .navbar {
-  width: 250px;
+  width: 300px;
   height: 80vh;
   background-color: var(--black);
   position: fixed;
