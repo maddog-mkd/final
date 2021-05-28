@@ -877,9 +877,22 @@ a {
   height: auto;
 }
 
-#post .lista {
+#post ol {
+  list-style: ;
+  margin-left: 1rem;
+}
+
+#post ol li {
+  margin-bottom: 0.5rem;
+}
+
+#post ul {
   list-style: square;
   margin-left: 1rem;
+}
+
+#post ul li {
+  margin-bottom: 0.5rem;
 }
 
 /* =========================================== 404 Page */
