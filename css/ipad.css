@@ -138,7 +138,7 @@
     display: flex;
     flex: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
   }
 
