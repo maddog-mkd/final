@@ -145,6 +145,7 @@
   #blog-page .blog-page-wrapper .blog-page-blog {
     max-width: 300px;
     margin: 1rem;
+    height: 500px;
   }
 
   /* ============================= Contact Page And Section */

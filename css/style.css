@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url(/font/Poppins-Regular.ttf);
+  src: url("/font/Poppins-Regular.ttf");
 }
 
 body {
@@ -80,6 +80,21 @@ a {
   display: inline-block;
   color: var(--black);
   background-color: var(--white);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-small:hover {
+  opacity: 0.8;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.btn-small-dark {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--black);
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   transition: all 0.2s ease;
@@ -878,7 +893,6 @@ a {
 }
 
 #post ol {
-  list-style: ;
   margin-left: 1rem;
 }
 
