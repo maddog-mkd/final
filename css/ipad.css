@@ -120,7 +120,7 @@
   .pricing-card-wrap {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center;
   }
 
@@ -131,6 +131,17 @@
 
   .zglb {
     flex: 2;
+  }
+
+  #pricing-page .description {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  #pricing-page .description .description-box {
+    margin: 0 1rem;
   }
 
   /* =========================================== Blog Page */

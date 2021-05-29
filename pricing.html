@@ -72,6 +72,7 @@
             <h1>web design | web development | seo</h1>
             <h2><span class="break">recognized</span><span class="break special-1 h-large-p">design</span></h2>
             <h3>let us build your vision!</h3>
+            <a href="#" id="open" class="btn-light-hero">contact us</a>
         </div>
     </header>
 
@@ -80,87 +81,158 @@
         <div class="container">
             <h2 class="lead-h"><span class="special-1">pricing</span></h2>
             <div class="pricing-card-wrap">
+
+                <div class="pricing-card">
+                    <h3 class="pricing-card-header">
+                        starter plan
+                    </h3>
+                    <div class="price">
+                        <span class="line-trough"><sup>&#36;</sup>1499/y</span> <span class="bold"><sup>&#36;</sup>1299/y</span>
+                    </div>
+                    <ul>
+                        <li><strong>1 Page</strong> Website</li>
+                        <li><strong>Domain</strong> 1 year</li>
+                        <li><strong>Hosting</strong> 1 year</li>
+                        <li><strong>SSL</strong> Certificate</li>
+                        <li><strong>Logo</strong> Design</li>
+                        <li><strong>Unlimited</strong> Revisions</li>
+                        <li><strong>Copywriting</strong></li>
+                        <li><strong>SEO</strong> Basic</li>
+                        <li><strong>Social Media Management</strong> FB. & IG.</li>
+                        <li><strong>PPC Services</strong></li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 class="pricing-card-header">
+                        professional plan
+                    </h3>
+                    <div class="price">
+                        <span class="line-trough"><sup>&#36;</sup>3499/y</span> <span class="bold"><sup>&#36;</sup>2999/y</span>
+                    </div>
+                    <ul>
+                        <li><strong>5 Pages</strong> Website</li>
+                        <li><strong>Domain</strong> 1 year</li>
+                        <li><strong>Hosting</strong> 1 year</li>
+                        <li><strong>SSL</strong> Certificate</li>
+                        <li><strong>Logo</strong> Design</li>
+                        <li><strong>Unlimited</strong> Revisions</li>
+                        <li><strong>Copywriting</strong> 4 Blogs Per Month</li>
+                        <li><strong>SEO</strong> Moderate</li>
+                        <li><strong>Social Media Management</strong> FB. IG.</li>
+                        <li><strong>PPC Services</strong></li>
+                    </ul>
+                </div>
+                
                 <div class="pricing-card">
                     <h3 class="pricing-card-header">
                         Ultimate Plan
                     </h3>
                     <div class="price">
-                        <span class="line-trough"><sup>&#36;</sup>7999/y</span> <span class="bold"><sup>&#36;</sup>6999/y</span>
+                        <span class="line-trough"><sup>&#36;</sup>6999/y</span> <span class="bold"><sup>&#36;</sup>5999/y</span>
                     </div>
                     <ul>
                         <li><strong>Unlimited Pages</strong> Website</li>
-                        <li><strong>Free Domain</strong> 1 year</li>
-                        <li><strong>Free Hosting</strong> 1 year</li>
-                        <li><strong>Free SSL</strong> Certificate</li>
-                        <li><strong>Free Logo</strong> Design</li>
+                        <li><strong>Domain</strong> 1 year</li>
+                        <li><strong>Hosting</strong> 1 year</li>
+                        <li><strong>SSL</strong> Certificate</li>
+                        <li><strong>Logo</strong> Design</li>
                         <li><strong>Unlimited</strong> Revisions</li>
-                        <li><strong>Content Writing</strong></li>
-                        <li><strong>SEO</strong></li>
-                        <li><strong>Social Media Management</strong></li>
+                        <li><strong>Copywriting</strong> 6 Blogs Per Month</li>
+                        <li><strong>SEO</strong> Advansed</li>
+                        <li><strong>Social Media Management</strong> FB. & IG.</li>
                         <li><strong>PPC Services</strong></li>
                     </ul>
-
-                    <div id="smart-button-container">
-                        <div style="text-align: center;">
-                          <div id="paypal-button-container"></div>
-                        </div>
-                      </div>
-                    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-                    <script>
-                      function initPayPalButton() {
-                        paypal.Buttons({
-                          style: {
-                            shape: 'rect',
-                            color: 'gold',
-                            layout: 'vertical',
-                            label: 'paypal',
-                            
-                          },
-                  
-                          createOrder: function(data, actions) {
-                            return actions.order.create({
-                              purchase_units: [{"description":"Ultimate Plan","amount":{"currency_code":"USD","value":1}}]
-                            });
-                          },
-                  
-                          onApprove: function(data, actions) {
-                            return actions.order.capture().then(function(details) {
-                              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                            });
-                          },
-                  
-                          onError: function(err) {
-                            console.log(err);
-                          }
-                        }).render('#paypal-button-container');
-                      }
-                      initPayPalButton();
-                    </script>
-
-                    <!-- <button type="submit" class="btn-dark">buy</button> -->
                 </div>
-                <div class="zglb">
-                    <p><span class="note">Note:</span>This is our ultimate plan for your business growth online. Depending on what type of website you are looking for, prices may vary. We make our services affordable for everyone's budget no matter how big or small your business is. Please write to us to adapt the plan accordingly to your budget.</p>
-                    <br>
-                    <h3 class="plan-description">ULTIMATE PLAN DESCRIPTION</h3>
-                    <p>With this offer, you provide a place for your customers to learn more about your business with a professional mobile-friendly website. Create an online presence for your business that is branded with your own logo, photos, unique content, and much more. Get an optimized website with keywords that are tailored to your business. Get discovered locally with targeted marketing from our experts. With our services, you can focus on running your business. Best regards, RecognizedDesign.</p>
 
-                    <h4 class="special-1">what you get:</h4>
+            </div>
+
+            <div class="zglb">
+                <p><span class="note">Note:</span>This are our plans for your business growth online. Depending on what type of website you are looking for, prices may vary. We make our services affordable for everyone's budget no matter how big or small your business is. Please write to us to adapt the plan accordingly to your budget.</p>
+                <p>With all offers, you provide a place for your customers to learn more about your business with a professional mobile-friendly website. Create an online presence for your business that is branded with your own logo, photos, unique content, and much more. Get an optimized website with keywords that are tailored to your business. Get discovered locally with targeted marketing from our experts. With our services, you can focus on running your business. Best regards, RecognizedDesign.</p>
+            </div>
+
+            <div class="description">
+                <div class="description-box">
+                    <h3 class="plan-description">starter plan <span class="special-1">what you get:</span></h3>
                     <ol class="ol">
-                        <li>Unlimited Pages And Revisions</li>
-                        <li>Free Logo Design</li>
-                        <li>Free Professional Mail</li>
-                        <li>Free Domain, Hosting, SSL Certificate for 1 year.</li>
-                        <li>Content Writing
+                        <li>One Page And Unlimited Revisions</li>
+                        <li>Logo Design</li>
+                        <li>Professional Mail</li>
+                        <li>Domain, Hosting, SSL Certificate for 1 year.</li>
+                        <li>Copywriting
                             <ul>
-                                <li>Four Unique Blog Posts a Month for 1 year.</li>
+                                <li>One Unique Blog Posts Monthly</li>
+                            </ul>
+                        </li>
+                        <li>Search Engine Optimization
+                            <ul>
+                                <li>On-Page SEO</li>
+                                <li>Backlinks (100)</li>
+                                <li>Map Citation</li>
+                                <li>Open Graph</li>
+                                <li>Google My Bussines</li>
+                            </ul>
+                        </li>
+                        <li>Social Media Management
+                            <ul>
+                                <li>Facebook Page</li>
+                                <li>Instagram Page</li>
+                            </ul>
+                        </li>
+                        <li>PPC Services</li>
+                    </ol>
+                </div>
+
+                <div class="description-box">
+                    <h3 class="plan-description">professional plan <span class="special-1">what you get:</span></h3>
+                    <ol class="ol">
+                        <li>Up To Pages And Unlimited Revisions</li>
+                        <li>Logo Design</li>
+                        <li>Professional Mail</li>
+                        <li>Domain, Hosting, SSL Certificate for 1 year.</li>
+                        <li>Copywriting
+                            <ul>
+                                <li>Four Unique Blog Posts Monthly</li>
                             </ul>
                         </li>
                         <li>Search Engine Optimization
                             <ul>
                                 <li>On-Page SEO</li>
                                 <li>Key Word Research</li>
-                                <li>Backlinks</li>
+                                <li>Backlinks (500)</li>
+                                <li>Map Citations</li>
+                                <li>Open Graph</li>
+                                <li>Google My Bussines</li>
+                            </ul>
+                        </li>
+                        <li>Social Media Management
+                            <ul>
+                                <li>Facebook Page</li>
+                                <li>Instagram Page</li>
+                            </ul>
+                        </li>
+                        <li>PPC Services</li>
+                    </ol>
+                </div>
+
+                <div class="description-box">
+                    <h3 class="plan-description">ultimate plan <span class="special-1">what you get:</span></h3>
+                    <ol class="ol">
+                        <li>Unlimited Pages And Revisions</li>
+                        <li>Logo Design</li>
+                        <li>Professional Mail</li>
+                        <li>Domain, Hosting, SSL Certificate for 1 year.</li>
+                        <li>Copywriting
+                            <ul>
+                                <li>6 Unique Blog Posts Monthly</li>
+                            </ul>
+                        </li>
+                        <li>Search Engine Optimization
+                            <ul>
+                                <li>On-Page SEO</li>
+                                <li>Key Word Research</li>
+                                <li>Backlinks (1000+)</li>
                                 <li>Map Citations</li>
                                 <li>Open Graph</li>
                                 <li>Schema Structured Data</li>
@@ -174,20 +246,57 @@
                             </ul>
                         </li>
                         <li>PPC Services</li>
-                    </ol>
-
-                    <a href="/contact.html" class="btn-small">contact us
-                        <i class="fas fa-long-arrow-alt-right"></i>
-                    </a>
+                    </ol> 
                 </div>
-            </div>
+            </div>                 
         </div>
     </main>
+
+    <!-- Lets Jump To Your Project -->
+    <div id="project">
+        <section class="container project-box">
+            <h2 class="lead-h">lets jump to your project!</h2>
+            <p>Are you interested in working with us? Tell us your specific needs and ideas. We will find the smartest and fastest solutions for your business.</p>
+            <button id="open-one" class="btn-dark">
+                contact
+            </button>
+        </section>
+    </div>  
 
     <!-- Footer -->
     <footer class="footer">
         <p>© 2021 Recognized<span class="special-1">Design</span>. All Right Reserved.</p>
     </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal-container">
+        <div class="modal">
+            <button id="close" class="close-btn">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>contact us</h3>
+            </div>
+            <div class="modal-content">
+                <p>Are you interested in working with us? Tell us your specific needs and ideas. We will find the smartest and fastest solutions for your business. Feel free to contact us 24/7.</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input class="form-input" type="text" id="name" placeholder="Enter Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input class="form-input" type="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea class="form-textarea" name="message" id="message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn-dark">
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript -->
     <script src="/js/main.js"></script>
