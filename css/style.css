@@ -451,6 +451,27 @@ a {
   color: var(--white);
 }
 
+#pricing-page .line-trough {
+  text-decoration: line-through;
+}
+
+#pricing-page .bold {
+  font-weight: bold;
+}
+
+#pricing-page .ol {
+  margin: 1rem 0 1rem 1rem;
+}
+
+#pricing-page .ol li {
+  padding: 0.1rem 0;
+}
+
+#pricing-page .ol ul {
+  margin: 0 0 0 1rem;
+  list-style: square;
+}
+
 /* =============================================== Testimonial Section */
 .testimonial-container {
   background-color: whitesmoke;
