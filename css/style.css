@@ -64,6 +64,11 @@ a {
   text-decoration: none;
 }
 
+.tag {
+  text-decoration: underline;
+  color: var(--red);
+}
+
 .special-1 {
   color: var(--red);
 }
@@ -83,6 +88,7 @@ a {
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .btn-small:hover {
@@ -98,6 +104,7 @@ a {
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .btn-small:hover {
@@ -117,6 +124,7 @@ a {
   letter-spacing: 2px;
   transition: 0.2s;
   border: none;
+  cursor: pointer;
 }
 
 .btn-light:hover {
@@ -135,6 +143,7 @@ a {
   letter-spacing: 2px;
   transition: 0.2s;
   border: none;
+  cursor: pointer;
 }
 
 .btn-dark:hover {
@@ -332,6 +341,7 @@ a {
   animation-fill-mode: backwards;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .btn-light-hero:hover {
