@@ -455,6 +455,10 @@ a {
   text-decoration: line-through;
 }
 
+#pricing-page ul {
+  margin: 3rem 0;
+}
+
 #pricing-page .bold {
   font-weight: bold;
 }

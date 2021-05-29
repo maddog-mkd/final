@@ -81,8 +81,12 @@
             <h2 class="lead-h"><span class="special-1">pricing</span></h2>
             <div class="pricing-card-wrap">
                 <div class="pricing-card">
-                    <h3 class="pricing-card-header">Ultimate Plan</h3>
-                    <div class="price"><span class="line-trough"><sup>&#36;</sup>7999/y</span> <span class="bold"><sup>&#36;</sup>6999/y</span></div>
+                    <h3 class="pricing-card-header">
+                        Ultimate Plan
+                    </h3>
+                    <div class="price">
+                        <span class="line-trough"><sup>&#36;</sup>7999/y</span> <span class="bold"><sup>&#36;</sup>6999/y</span>
+                    </div>
                     <ul>
                         <li><strong>Unlimited Pages</strong> Website</li>
                         <li><strong>Free Domain</strong> 1 year</li>
@@ -95,7 +99,45 @@
                         <li><strong>Social Media Management</strong></li>
                         <li><strong>PPC Services</strong></li>
                     </ul>
-                    <button type="submit" class="btn-dark">buy</button>
+
+                    <div id="smart-button-container">
+                        <div style="text-align: center;">
+                          <div id="paypal-button-container"></div>
+                        </div>
+                      </div>
+                    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+                    <script>
+                      function initPayPalButton() {
+                        paypal.Buttons({
+                          style: {
+                            shape: 'rect',
+                            color: 'gold',
+                            layout: 'vertical',
+                            label: 'paypal',
+                            
+                          },
+                  
+                          createOrder: function(data, actions) {
+                            return actions.order.create({
+                              purchase_units: [{"description":"Ultimate Plan","amount":{"currency_code":"USD","value":1}}]
+                            });
+                          },
+                  
+                          onApprove: function(data, actions) {
+                            return actions.order.capture().then(function(details) {
+                              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                            });
+                          },
+                  
+                          onError: function(err) {
+                            console.log(err);
+                          }
+                        }).render('#paypal-button-container');
+                      }
+                      initPayPalButton();
+                    </script>
+
+                    <!-- <button type="submit" class="btn-dark">buy</button> -->
                 </div>
                 <div class="zglb">
                     <p><span class="note">Note:</span>This is our ultimate plan for your business growth online. Depending on what type of website you are looking for, prices may vary. We make our services affordable for everyone's budget no matter how big or small your business is. Please write to us to adapt the plan accordingly to your budget.</p>
