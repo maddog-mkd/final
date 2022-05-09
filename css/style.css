@@ -726,10 +726,6 @@ a {
   margin: 1rem;
 }
 
-#work-page .work-container .work-project:hover {
-  opacity: 0.8;
-}
-
 #work-page .work-container .work-project img {
   border-radius: 1rem;
 }
